@@ -2,10 +2,9 @@
 
 这里的代码是文章中的一部分
 
-
-lib/data_report_with_sysv.py  共享内存上报的库
-helper/  一些辅助函数
-collect_itil_value.py  从本机共享内存读取数据然后上报到数据接收端
+	lib/data_report_with_sysv.py  利用共享内存上报的库
+	collect_itil_value.py  读取本地内存中的数据然后上报，用于crontab当中
+	helper/   辅助函数
 
 
 
